@@ -29,6 +29,6 @@ Objectives:
 - Containerize the application using Docker, particularly the database, to ensure a consistent and isolated environment.
 - Use Terraform to provision cloud infrastructure, defining resources such as server instances and security configurations.
 
-![operation_scheme](img/operation_scheme.png)
+<img src="operation_scheme.png" alt="scheme" width="350" height="350">
 
 This modular and scalable architecture ensures that the server can accommodate a growing number of users and challenges while maintaining efficiency, security, and consistency.
