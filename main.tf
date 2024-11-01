@@ -27,6 +27,11 @@ resource "mgc_virtual_machine_instances" "hello_world_instance" {
   ssh_key_name = "ssh-magalu-judge"
 
   provisioner "remote-exec" {
+    #Faltou o passo de mudar onde o docker monta para vdb
+    # /etc/docker/daemon.json
+    #{
+    #"data-root": "/mnt/vdb/docker-data"
+    #}
     inline = [
       "#!/bin/bash",
       "sudo mkfs.ext4 /dev/vdb",
