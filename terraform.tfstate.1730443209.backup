@@ -1,0 +1,54 @@
+{
+  "version": 4,
+  "terraform_version": "1.9.8",
+  "serial": 3,
+  "lineage": "f5f8e5ad-7778-6c87-12b9-1684381b8c78",
+  "outputs": {},
+  "resources": [
+    {
+      "mode": "managed",
+      "type": "mgc_virtual_machine_instances",
+      "name": "grandejudge",
+      "provider": "provider[\"registry.terraform.io/magalucloud/mgc\"]",
+      "instances": [
+        {
+          "status": "tainted",
+          "schema_version": 0,
+          "attributes": {
+            "created_at": "Friday, 01-Nov-24 03:24:34 -03",
+            "final_name": "grandejudge",
+            "id": "b23da891-c683-4b6d-b5c2-850da2c94b32",
+            "image": {
+              "id": "99a6e7e4-86b6-4106-bd38-e6a1c6270ef7",
+              "name": "cloud-ubuntu-22.04 LTS"
+            },
+            "machine_type": {
+              "disk": 100,
+              "id": "388cddd2-e8c8-4f2f-9247-6f441320df34",
+              "name": "BV8-32-100",
+              "ram": 32768,
+              "vcpus": 8
+            },
+            "name": "grandejudge",
+            "name_is_prefix": false,
+            "network": {
+              "associate_public_ip": true,
+              "delete_public_ip": true,
+              "interface": null,
+              "ipv6": "2801:80:3ea0:d485::2a5",
+              "private_address": "172.18.0.173",
+              "public_address": "169.150.1.192",
+              "vpc": null
+            },
+            "ssh_key_name": "ssh-magalu-judge",
+            "state": "new",
+            "status": "creating_error_quota_ram",
+            "updated_at": "Friday, 01-Nov-24 03:24:34 -03"
+          },
+          "sensitive_attributes": []
+        }
+      ]
+    }
+  ],
+  "check_results": null
+}
